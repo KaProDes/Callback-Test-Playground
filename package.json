@@ -1,0 +1,20 @@
+{
+  "name": "lti-oauth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev-test": "nodemon index.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "express": "^5.2.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
